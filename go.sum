@@ -1,7 +1,7 @@
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/hmarr/codeowners v0.3.2 h1:6n2VRZ6eacVJoR9y3Mwh7jhIwEdICdWcAooJEKcXkss=
-github.com/hmarr/codeowners v0.3.2/go.mod h1:69E8OtZUwt8iLpog7jMMff9Ld9P6CfkJBoYU2COAY0Y=
+github.com/irotem/codeowners v0.3.3-0.20220120100430-f72d28248375 h1:cl3s3L0tRejOTWlbsiUn+pjRo/+MtttZTu6d/tPYTvg=
+github.com/irotem/codeowners v0.3.3-0.20220120100430-f72d28248375/go.mod h1:69E8OtZUwt8iLpog7jMMff9Ld9P6CfkJBoYU2COAY0Y=
 github.com/karrick/godirwalk v1.15.6/go.mod h1:j4mkqPuvaLI8mp1DroR3P6ad7cyYd4c1qeJ3RV7ULlk=
 github.com/karrick/godirwalk v1.16.1 h1:DynhcF+bztK8gooS0+NDJFrdNZjJ3gzVzC545UNA9iw=
 github.com/karrick/godirwalk v1.16.1/go.mod h1:j4mkqPuvaLI8mp1DroR3P6ad7cyYd4c1qeJ3RV7ULlk=
