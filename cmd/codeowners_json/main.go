@@ -3,13 +3,12 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/karrick/godirwalk"
+	"github.com/rotem-cider/codeowners-json/cmd/codeowners"
+	flag "github.com/spf13/pflag"
 	"os"
 	"path/filepath"
 	"strings"
-
-	"github.com/hmarr/codeowners"
-	"github.com/karrick/godirwalk"
-	flag "github.com/spf13/pflag"
 )
 
 type File struct {
@@ -95,7 +94,6 @@ func main() {
 				if path == ".git" {
 					return filepath.SkipDir
 				}
-
 				// Only show code owners for files, not directories
 				if !dirent.IsDir() {
 					file := getFileOwners(ruleset, path, ownerFilters)
